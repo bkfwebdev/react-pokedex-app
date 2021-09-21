@@ -1,6 +1,32 @@
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+div h1 {
+  text-align: center;
+}
+
+
+.App ul {
+  display: flex;
+  align-items: stretch; /* Default */
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.App li {
+  display: block;
+  flex: 0 1 auto; /* Default */
+  list-style-type: none;
+  background: #fafafa;
+}
+
 .Pokecard {
-  height: 250px;
+  height: 225px;
   width: 150px;
+  padding: 5px;
   border-style: solid;
   border-color: black;
   border-radius: 10px;
